@@ -91,4 +91,10 @@ plot2 = go.Figure(data=infosys_data, layout=layout)
 plot(plot2)
 plt.show()
 
-
+#calculate scores for model evaluation
+scores=f'''
+{'Metric'.ljust(10)}{'Train'.center(20)}
+{'r2score'.ljust(10)}{r2_score(Y_train, lm.predict(X_train))}\t{r2_score(Y_test, lm.predict(X_test))}
+{'MSE'.ljust(10)}{mse(Y_train, lm.predict(X_train))}\t{mse(Y_test, lm.predict(X_test))}
+'''
+print(scores)
