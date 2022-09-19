@@ -21,4 +21,31 @@ print(f'Dataframe contains stock prices between {infosys.Date.min()} {infosys.Da
 print(f'Total days = {(infosys.Date.max()) - infosys.Date.min()} days')
 print(infosys.describe())
 infosys[['Open', 'High', 'Low', 'Close', 'Adj Close']].plot( kind = 'box')
-plt.show()
+
+
+# Setting the layout for plot
+layout = go.Layout(
+    title = 'Stock Prices of Infosys',
+    xaxis = dict(title = 'Date',
+                 titlefont = dict (family = 'Courier New, monospace',
+                                    size = 18,
+                                    color = '#7f7f7f'
+                                   )
+                 ),
+
+    yaxis = dict(
+        title = 'Price',
+        titlefont = dict(
+            family = 'Courier New, monospace',
+            size = 18,
+            color = '#7f7f7f'
+        )
+    )
+)
+
+infosys_data = [{'x': infosys['Date'], 'y': infosys['Close']}]
+plot1 = go.Figure(data = infosys_data, layout=layout)
+plot(plot1)
+
+
+
