@@ -1,11 +1,11 @@
+<p><br></p>
+<p><br></p>
 <h1>STOCK PREDICTION USING LINEAR REGRESSION</h1>
 <p><br></p>
 <p>DISCLAIMER:</p>
 <p><br></p>
 <p>This is a program made for demonstration of how to use python libraries for Linear regression for machine learning.</p>
-<p><br></p>
 <p>Linear regression is not the best prediction method and also not the best prediction method in this exact condition.</p>
-<p><br></p>
 <p>Neither the author nor any one contributing to the project is responsible for any financial or other losses of any user.</p>
 <p><br></p>
 <p>AIM:</p>
@@ -17,7 +17,6 @@
 <p>A file of stock data containing Date, open, high, low, close and adjusted close in CSV format</p>
 <p><br></p>
 <p>For this project the data used is INFOSYS stock data.</p>
-<p><br></p>
 <p>DATASET SOURCE:&nbsp;<a href="https://www.kaggle.com/datasets/syedjaferk/infosys-stock-data-live-and-latest">Infosys Stock Data - Live and Latest | Kaggle</a></p>
 <p><br></p>
 <p>Python libraries such as:</p>
@@ -67,13 +66,12 @@
 <p><br></p>
 <p>RESULT:</p>
 <p><br></p>
-<p><img src="https://lh3.googleusercontent.com/JxNVssYAkGBPDJDlXmJMidasTj54UBhvyKvnvjE9hoG-GcpHokzZSTCCt9e6hyvA4kazmSwBtlwhAD9IEJYh1dxN0KheHfGBMZrn3Wb_mgVMoE77KkLmlQYAVlxf6M2_iBxvrz0aK8KFe4fMgku7Vch0CgKCcQPF_uF7pd26ytBbDOzeFOowSoTx_Q" width="712" height="356"></p>
+<p><img src="https://lh4.googleusercontent.com/SJ9NMhJ24ca4w9ENOzfr84gAtKjn9-qYCoTffBP4JtluO-oti6MH6oOGki4IVS8OJfPDuqjqBc1lm-o8ahviRCCbx7lAHn54F4CvHuh5FbpncDEDrOuIwe6kerV1XuyMBfNHaDXStJA95pTjexM9F1ufbA9Zopmko_mhbjTENLtAvqC1Z1ZBr2XoUA" width="712" height="356"></p>
 <p><br></p>
 <p>CONCLUSION:</p>
 <p><br></p>
 <p>As expected Linear regression is not the best fit when the data takes a&nbsp;</p>
 <p>Large difference from the mean quickly.</p>
-<p><br></p>
 <p>Thus, Linear regression while being the easiest and quickest is not the&nbsp;</p>
 <p>Best way of representing data or building a model.</p>
 <p><br></p>
@@ -99,10 +97,8 @@
 </div>
 <p><br></p>
 <p>To your own csv directory</p>
-<p><br></p>
 <p>This program can predict the coming days by adding empty open and&nbsp;</p>
 <p>Close with nothing else on the original CSV file.</p>
-<p><br></p>
 <p>Lastly, this program only uses the data to the day mentioned when&nbsp;</p>
 <p>You run the program. No further updates would be done on this&nbsp;</p>
 <p>Program.</p>
